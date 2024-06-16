@@ -2,14 +2,15 @@ import React from "react";
 import styles, { layout } from "../../../style";
 import { Link } from "react-router-dom";
 import { Rocket } from "../../../assets";
+import Collection from "./Collection";
 
 const TrendingCollections = () => {
   return (
-    <section id="features" className={`${layout.section} px-0 md:px-14`}>
+    <div className="flex-col px-0 md:px-14">
       <div className='py-3 flex justify-between'>
         <div className=''>
-        <h2 className={styles.heading2}>Top Creators</h2>
-        <h2 className="text-xl text-dimWhite">Checkout Top Rated Creators on the NFT Marketplace</h2>
+        <h2 className={styles.heading2}>Trending Collection</h2>
+        <h2 className="text-xl text-dimWhite">Checkout our weekly updated trending collection.</h2>
         </div>
         <Link
         to={"/SignUp"}
@@ -23,8 +24,12 @@ const TrendingCollections = () => {
           </h2>
         </Link>
       </div>
-
-    </section>
+      <div className="grid gap-2 sm:gap-4 grid-cols-1 md:gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <Collection />
+        <Collection />
+        <Collection />
+      </div>
+    </div>
   );
 };
 

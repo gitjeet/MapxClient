@@ -32,7 +32,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 
 const Home = () => (
   <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-    <div className={`${styles.boxWidth}`}>
+    <div className={`${styles.boxWidth} justify-items-center`}>
      <Hero/>
      <TrendingCollections/>
      <TopCreator/>
