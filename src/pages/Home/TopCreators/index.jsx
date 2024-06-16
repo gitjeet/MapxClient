@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const TopCreator = () => {
   return (
-    <div className='flex-col px-0 md:px-14'>
+    <div className='flex-col px-0 md:px-14 py-[20px] sm:py-[40px] md:py-[60px]'>
       <div className='py-3 flex justify-between'>
         <div className=''>
         <h2 className={styles.heading2}>Top Creators</h2>

@@ -5,7 +5,7 @@ import styles, { layout } from "../../../style";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col sm:flex-row lg:px-12 px-2  h-auto sm:h-[544px] md:h-[704px] py-10 sm:py-[40px] md:py-[60px]">
+    <section className="flex flex-col sm:flex-row lg:px-12 px-2  h-auto sm:h-[544px] md:h-[704px] py-10 sm:py-[40px] md:py-[50px] ">
       <div className="flex-1 flex-col justify-center items-start relative pr-[30px] text-[67px] h-auto sm:h-[381px] md:h-[544px]">
         <h2 className="font-semibold text-white leading-[73.7px] sm:leading-[45.6px] sm:text-[38px] md:text-[67px] md:leading-[73.7px]">
           Discover <br />
