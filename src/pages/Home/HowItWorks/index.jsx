@@ -14,7 +14,7 @@ const HowItWorks = () => {
       </h2>
     </div>
   </div>
-  <div className="sm:grid gap-2 sm:gap-4 grid-cols-2 md:gap-4 sm:grid-cols-3 flex flex-col">
+  <div className="sm:grid gap-2 sm:gap-4 grid-cols-2 md:gap-14 sm:grid-cols-3 flex flex-col">
     <Working />
     <Working />
     <Working />

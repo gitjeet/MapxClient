@@ -1,7 +1,7 @@
 import styles, { layout } from "../../style";
 import Button from "./Button";
 
-const feature = [
+const features = [
   { icon: "and", title: "Helllo", content: "ndsnsnd", index: 0 },
 ];
 
@@ -30,9 +30,11 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const ConnectWallet = () => (
   <div className={`bg-primary ${styles.flexCenter}`}>
     <div className={`${styles.boxWidth}`}>
-      <section id="features" className={`${layout.section}`}>
-        <div className={layout.sectionInfo}>
-          <img src="https://s3-alpha-sig.figma.com/img/b6d9/35f1/0d29b7a16514adcc0f308a58047cb668?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QrZjPS3c3BGAsGg29h3WfA2wZXLjiL~BORheu36~IGzHfU9wyh9f3hlVSf4NQVnURotuaqrf7UwiKdE8kG9rgcOLf2-YsAHwks9FGyaXvFhA~lpB6V0BggaUVzVgWrKdxIAWsPQHzBNxhbbI8265Fh88caRgmZMU7zHdm0tnHvvB31gT3GMfe5iENBdZfeMuKiYT-QT2MFAuxVuJbvhVKOoYEtn8~zo2-lxLWk7fTP3wL9-8rhVpKwifMGsK3EDZDVCNrKBlgrgRGN1tp7vfKi~47K1FlFU79~JsFfynMIJOA~wXwCM5WeThlmoWOM2AvlS0bWNE-sObhHd90x727w__" />
+      <section id="features" className="flex flex-col sm:flex-row h-auto">
+        <div
+          className={`${layout.sectionInfo} object-contain h-[232px] sm:h-auto`}
+        >
+          <img src="https://s3-alpha-sig.figma.com/img/b6d9/35f1/0d29b7a16514adcc0f308a58047cb668?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e3AQPURdKIweQPBdSwW82Yd45FapppEbSMdxq7xBYcjsf-fFDbz2GlLVR2gR2pLQ6R7DP5oL0bFU77Gciow3GWbuoLgxp1qcE3PigIwh2rOd8KzCmYXCyXj5jPUoKTMii8sMmZ457PPp9XHeSIr4gAyNokv1pgJBMeZy0WVwhHwDDuVOKpbmvXH9R-XEAMZPQ2kr0LOCIcpcwem4EC316wZDgYP-IztQ0TrjJO~VR94ATXvtf8Nr6oVYjS1SOFDGlcnRIM5CmxFpBER3d8g8b3g1~HYS9CcomQPDPb5QOV3t-eoM3KTAeCYzLemdpxXSaicT-7nWpg8Y~vM~ZhPX3A__" />
         </div>
 
         <div className={`${layout.sectionImg} flex-col`}>
