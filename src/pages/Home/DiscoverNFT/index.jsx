@@ -6,7 +6,7 @@ import NFTs from "./NFTs";
 
 const DiscoverNFT = () => {
   return (
-    <div className="flex-col px-0 md:px-14 py-[20px] sm:py-[40px] md:py-[60px]">
+    <div className="flex-col px-0 md:px-24 py-[20px] sm:py-[40px] md:py-[60px]">
       <div className="py-3 mb-5 flex justify-between">
         <div className="">
           <h2 className={styles.heading2}>Discover More NFTs</h2>

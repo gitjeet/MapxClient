@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Rocket } from "../../../assets";
 
 const HowItWorks = () => {
-  return <div className="flex-col px-0 md:px-14 py-[20px] sm:py-[40px] md:py-[60px]">
+  return <div className="flex-col px-0 md:px-24 py-[20px] sm:py-[40px] md:py-[60px]">
   <div className="py-3 flex justify-between">
     <div className="">
       <h2 className={styles.heading2}>How it works</h2>

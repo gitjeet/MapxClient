@@ -6,7 +6,7 @@ import Category from "./Category";
 
 const BrowseCategories = () => {
   return (
-    <div className="flex-col px-0 md:px-14 py-[20px] sm:py-[40px] md:py-[60px]">
+    <div className="flex-col px-0 md:px-24 py-[20px] sm:py-[40px] md:py-[60px]">
       <div className="py-4 mt-4 flex justify-between">
           <h2 className={styles.heading2}>Browse Categories</h2>
       </div>
