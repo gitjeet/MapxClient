@@ -122,3 +122,13 @@ export const footerLinks = [
     ],
   },
 ];
+
+
+const trendingCollections = [
+  {
+    id:0,
+    name:"Space Walking",
+    avatar:"",
+    creatorName:"",
+  }
+]

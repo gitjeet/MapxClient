@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { PaintBrush } from "../../../assets";
+import { Link } from "react-router-dom";
 
 const Collection = () => {
+  const [id,setID] = useState(0);
   return (
-    <div className="w-full bg-primary flex items-center flex-col rounded-3xl">
+    <Link to={`/nft/${id}`} className="w-full bg-primary flex items-center flex-col rounded-3xl">
       <div className="w-full p-2 aspect-square flex items-center rounded-lg justify-center overflow-hidden">
         <img
           className="w-full h-full object-fit rounded-lg"
@@ -38,7 +40,7 @@ const Collection = () => {
           <span className="text-white">Animakid</span>
         </div>{" "}
       </div>{" "}
-    </div>
+    </Link>
   );
 };
 
