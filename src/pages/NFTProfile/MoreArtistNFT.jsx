@@ -9,10 +9,7 @@ const MoreArtistNFT = () => {
     <div className="flex-col px-0 md:px-24 py-[20px] sm:py-[40px] md:py-[60px]">
       <div className="py-3 mb-5 flex justify-between">
         <div className="">
-          <h2 className={styles.heading2}>Discover More NFTs</h2>
-          <h2 className="text-xl text-dimWhite">
-          Explore new trending NFTs
-          </h2>
+          <h2 className={styles.heading2}>More From This Artist</h2>
         </div>
         <Link
           to={"/SignUp"}
@@ -21,7 +18,7 @@ const MoreArtistNFT = () => {
         >
           <img src={Rocket} alt="hoobank" className="w-[20px] h-[25px] mr-2" />
 
-          <h2 className="text-white">See All</h2>
+          <h2 className="text-white">Go To Artist Page</h2>
         </Link>
       </div>
       <div className="grid gap-2 sm:gap-4 grid-cols-2 md:gap-4 sm:grid-cols-3 mb-4">
