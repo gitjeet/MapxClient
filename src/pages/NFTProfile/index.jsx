@@ -11,10 +11,21 @@ const NFTProfile = () => {
             src="https://s3-alpha-sig.figma.com/img/a6f4/3f93/50c73503d13e1fe1a0e3277804ef1192?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WfwG7Ha3EPdBnGfQnV22T2QDnea~WD~mrP--H6kCvJvnQMT2KCphxXckercVaZl8D~dxLqltUfvRrtHiYllAFaEqGcP84y0FPoijsY3N8urtG7NrM6Ra~J3Tfux0L61OVCgRYERYg9chEqJxkgwV7ly4e1nPdNjucVSKYd-zVmEfiTZf8i9U003mS22oqitcBP4DfR18puA8gUat8U51R~WjjBElOvr6eSVAhcm3aPCxOPmqdXSNHoEqVfwFyvOYrs-ywsgZ3vGedK-~0IbBxWT3LVYO3LujjdfTa1oyMs9lC4qEKW8OJi6jM~7725sqI4hmy8fYtJdJN3hn6DAWiA__"
           />
         </div>
-        <div className="flex flex-1 flex-col sm:flex-row mt-10 mx-24">
-          <div className="flex flex-1 flex-col">
-            <h2>Heading</h2>
-            <p>
+        <div className="flex flex-1 flex-col justify-between sm:flex-row mt-10 mx-24">
+          <div className="flex flex-1 flex-col max-w-[605px]">
+            <h2 className="text-[28px] sm:text-[38px] md:text-[51px] text-white font-semibold">The Orbidians</h2>
+            <h2 className="text-[16px] md:text-[22px] text-dimWhite font-thin">Minted on Sep 30,2022</h2>
+            <h2 className="text-[16px] md:text-[22px] text-dimWhite font-semibold">Created by</h2>
+            <div className="flex items-center mt-2">
+              <img
+                src="/mnt/data/image.png"
+                alt="Author"
+                className="w-6 h-6 rounded-full mr-2"
+              />
+              <span className="text-white font-semibold text-[16px] md:text-[22px]">Animakid</span>
+            </div>
+            <h2 className="text-[16px] md:text-[22px] text-dimWhite font-semibold">Description</h2>
+            <p className="text-[16px] md:text-[22px] text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
               autem sequi tempora eos, temporibus quibusdam! Assumenda harum
               dolor eaque voluptatum quis accusantium error esse in ratione
@@ -33,6 +44,24 @@ const NFTProfile = () => {
               officia? Quaerat neque eaque commodi molestiae atque ad veritatis,
               consequuntur repellat officia distinctio.
             </p>
+            <h2 className="text-[16px] md:text-[22px] text-dimWhite font-semibold">Details</h2>
+            
+            <h2 className="text-[16px] md:text-[22px] text-dimWhite font-semibold">Tags</h2>
+            <div className="flex flex-wrap ">
+              <h2 className="py-2 text-white font-semibold bg-lightGrey rounded-2xl px-2">
+                ANIMATION
+              </h2>
+              <h2 className="py-2 text-white font-semibold bg-lightGrey rounded-2xl px-2">
+                ANIMATION
+              </h2>
+              <h2 className="py-2 text-white font-semibold bg-lightGrey rounded-2xl px-2">
+                ANIMATION
+              </h2>
+              <h2 className="py-2 text-white font-semibold bg-lightGrey rounded-2xl px-2">
+                ANIMATION
+              </h2>
+            </div>
+            
           </div>
           <div className="w-full flex-col sm:w-[295px] p-4 h-[234px] bg-lightGrey rounded-xl">
             <h2 className="text-dimWhite font-light">Auction ends in </h2>
