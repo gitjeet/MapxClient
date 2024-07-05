@@ -70,7 +70,7 @@ const Hero = () => {
           <div className="sm:h-4/5 bg-black rounded-t-xl">
             <img
               className={`rounded-t-xl w-full h-full object-fit`}
-              src="https://s3-alpha-sig.figma.com/img/8ac9/e0e3/bcf2d5507a81254146143702cd71f923?Expires=1718582400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Euj9mfGtsiSpDywOSUnJsmikd9K7LN2TgZmZAdARIb2U6P6fKGXUCk8iROOZeUe9E8ZDBAIxiLx67yJPHgw1ez2-A5bQNSnrSe~vMypJOlBOvloIDPnC-HWGT0Bcw~8CDmGBHuM7m0exB99ACPrE4rE7l71~WemzPXec0y9kv2b5zUQRqIJETDDXDjC2Ez0as9FZkRhXHIJiXPyv213ZVUBZIXowCk1e5-baIS9HqzV~n870OCIkvPQpFBkeczXjKF68c9OvpdEhh3Ngt1W4qgdhoxZ-BuHBqlTPxO9a7~N5sGsD47Y5hI~eONFA6H6JAVQgZosVlvDV3za4L4QlCQ__"
+              src="https://s3-alpha-sig.figma.com/img/8ac9/e0e3/bcf2d5507a81254146143702cd71f923?Expires=1721001600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g6xsinM9PXDun7B9a0tJYD3SN9VRSjqDxC-xdUFRIKpuyGyAOH-0dSwrVOESo7sIPglFPCNjvARRRilK4Ii0TyZRk~8y3B3~NA1RhzBn0h~~461Gdkrdv6d6wT9hwr6NV3cVFjRgKbXLGdyucAbuiANu2nyuvEPQaEoZ8m2VTboPj7yV0K48EkHw9UpRcI7g~nFO6F96gkTRxfqZt3XNCL4~d8QgvnvN6OqEHTVboQWlA0TVVeU23HQ39XHn2wfvr9~WDZ881pkgCKy6ZmxSUCw1uzCSdW2~ZovtDxMgWlcNriRO~DlU5m7IElKUDeLLeUqjebJ8DwBAvy48BkiOWQ__"
               alt="Space Walking"
             />
           </div>

@@ -15,11 +15,11 @@ const TabBar = () => {
               onClick={() => setActiveTab(item.index)}
               className={`${
                 item.index === activeTab ? "border-b-2 border-white" : ""
-              } flex-1 flex justify-center align-middle`}
+              } flex-1 flex justify-center  py-[30px]`}
             >
-              <h2 className="text-white py-2">{item.label}</h2>
+              <h2 className={` text-[16px] font-semibold ${item.index === activeTab ? "text-white":"text-textGrey"}`}>{item.label}</h2>
               <div>
-                <h2 className="text-white bg-lightGrey px-4 my-1 mx-2 rounded-xl">
+                <h2 className="text-white bg-lightGrey px-4 mx-2 rounded-xl">
                   {item.content.length}
                 </h2>
               </div>
