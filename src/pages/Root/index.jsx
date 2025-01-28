@@ -6,13 +6,28 @@ import Footer from "../../components/Footer";
 
 const Root = () => {
   return (
-    <div className="bg-primary w-full overflow-hidden relative">
-      {/* Overlay with Work in Progress message */}
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-        <h1 className="text-white text-4xl font-bold">Work in Progress</h1>
+    <div className="bg-primary w-full overflow-hidden">
+      {/* Overlay with "Work in Progress" text */}
+      <div
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          backgroundColor: "rgba(0, 0, 0, 0.5)", // Semi-transparent black
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          color: "white",
+          fontSize: "2rem",
+          fontWeight: "bold",
+          zIndex: 1000, // Ensure it's above other content
+        }}
+      >
+        Work in Progress
       </div>
 
-      {/* Content */}
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <NavBar />
